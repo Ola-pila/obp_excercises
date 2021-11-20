@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        Volvo V70 = new Volvo(2000, "V70", true, 429000, "material");
-
-        V70.startEngine();
-
-        Vehicle vehicle = new Vehicle (2012, "Panda", false, 150000);
-        vehicle.startEngine();
-
-        Chevrolet chevrolet = new Chevrolet(2014, "Jakis", true, 186909, Drive.FWD);
-        chevrolet.startEngine();
+//        Volvo V70 = new Volvo(2000, "V70", true, 429000, "material");
+//
+//        V70.startEngine();
+//
+//        Vehicle vehicle = new Vehicle (2012, "Panda", false, 150000);
+//        vehicle.startEngine();
+//
+//        Chevrolet chevrolet = new Chevrolet(2014, "Jakis", true, 186909, Drive.FWD);
+//        chevrolet.startEngine();
 
 //        Car audi = new Car(0,1,"TT",true);
 //
@@ -28,6 +28,13 @@ public class Main {
 //        System.out.println("Car is changed");
 //
 //        volvo.startEngine();
+
+        Cat kot = new Cat();
+        kot.sleep();
+        kot.sound();
+        Dog pies = new Dog();
+        pies.sleep();
+        pies.sound();
 
 
     }
